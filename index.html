@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McRide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cont">
+        <h2>BOOKING FORM</h2>
+        <form action="https://formspree.io/f/xqkowyoy" method="POST">
+                <div class="form-group">
+                    <input type="text" id="email" placeholder="Full Name" required >
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email" required >
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                </div>
+                <div class="form-group">
+                    <select name="cars">
+                        <option>Select Your Car</option>
+                        <option>THAR</option>
+                        <option>Triber</option>
+                        <option>Baleno</option>
+                        <option>Tiago</option>
+                        <option>Swift</option>
+                        <option>Nexon</option>
+                        <option>Bolero</option>
+                        <option>Innova</option>
+                        <option>Ertiga</option>
+                        <option>Honda Civic</option>
+                        <option>Seltos</option>
+                        <option>Eeco Van</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <select name="Pick-Up Location">
+                        <option>Select your Pick-up Location</option>
+                        <option>King's gym Potheri</option>
+                        <option>Potheri Station</option>
+                        <option>Abode</option>
+                        <option>Gudvancheri Bus-stand</option>
+                        <option>Chennai Central</option>
+                        <option>Chennai Airport</option>
+                        <option>Marina Beach</option>
+                        <option>Tambaram</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="password"  name="password">Pick Up (Date/Time):-</label>&nbsp;
+                </div>
+                <div class="form-group">
+                    <input type="datetime-local" id="meeting-time" name="meeting-time" value="2023-01-12T19:30" min="2023-04-24T00:00" max="2200-06-14T00:00">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="password"  name="password">Return (Date/Time):-</label>&nbsp;
+                <div class="form-group">
+                    <input type="datetime-local" id="meeting-time" name="meeting-time" value="2023-01-12T19:30" min="2023-04-24T00:00" max="2200-06-14T00:00">
+                </div>
+                <input class="btn btn-success w-100" type="submit" value="SIGN IN">
+        </form>
+        
+    </div>
+    
+</body>
+</html>
